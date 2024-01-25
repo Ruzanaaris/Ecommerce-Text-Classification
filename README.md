@@ -1,7 +1,10 @@
 ﻿# Ecommerce-Text-Classification
 The dataset is taken from Kaggle based on the URL: https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification
 
-In this project the accuracy shows 
+In this project the accuracy of training data is only 69.02% while accuracy of validation data is 94.48%. 
+This shows that the training data is in poor performance and it is consider as underfit since leaning algorithm duid not have enough data to learn.
+Therefore, the model needs to increase the amount of training data or the number of passes on the existing training data.
+
 ## Performance result
 ![performance result](https://github.com/Ruzanaaris/Ecommerce-Text-Classification/assets/95346773/d0215bda-285e-42c7-bc59-e73dfe937c41)
 
